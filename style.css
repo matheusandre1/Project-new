@@ -9,13 +9,11 @@ body {
   font-family: sans-serif;
 }
 
-
 #container {
+  margin-top: 100px;
   width: 80%;
   max-width: 400px;
   margin-inline: auto;
-
-
 }
 
 h1 {
@@ -33,6 +31,7 @@ input,
 button {
   display: block;
   width: 100%;
+
   padding: 20px;
   font-size: 20px;
   border-radius: 4px;
@@ -40,7 +39,6 @@ button {
 
 input {
   margin-bottom: 20px;
-
 }
 
 button {
@@ -50,7 +48,19 @@ button {
   transition: filter .2s;
 }
 
+/* pseudo-class :hover */
 button:hover {
-  filter: brightness(1.2s);
+  filter: brightness(1.2);
   cursor: pointer;
+}
+
+#resposta {
+  margin-top: 30px;
+}
+
+#resposta div {
+  font-size: 16px;
+  font-weight: normal;
+  opacity: 0.9;
+  margin-bottom: 10px;
 }
